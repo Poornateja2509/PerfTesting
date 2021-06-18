@@ -1,0 +1,32 @@
+timeStamp,elapsed,label,responseCode,responseMessage,threadName,dataType,success,failureMessage,bytes,sentBytes,grpThreads,allThreads,URL,Latency,SampleCount,ErrorCount,IdleTime,Connect
+2021/06/18 10:12:42,350,TC001_Homepage,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4896,775,1,1,null,0,1,0,585,0
+2021/06/18 10:12:42,350,1 /SpringMVCAnnotationShoppingCart/,200,OK,Thread Group 1-1,text,true,,4896,775,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/,202,1,0,0,76
+2021/06/18 10:12:43,738,TC002_Login with admin ,200,"Number of samples in transaction : 3, number of failing samples : 0",Thread Group 1-1,,true,,16096,3653,1,1,null,0,1,0,6,0
+2021/06/18 10:12:43,208,4 /SpringMVCAnnotationShoppingCart/login,200,OK,Thread Group 1-1,text,true,,5498,973,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/login,117,1,0,0,0
+2021/06/18 10:12:43,306,6 /SpringMVCAnnotationShoppingCart/j_spring_security_check,200,OK,Thread Group 1-1,text,true,,5559,1691,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/accountInfo,111,1,0,0,0
+2021/06/18 10:12:44,224,7 /SpringMVCAnnotationShoppingCart/accountInfo,200,OK,Thread Group 1-1,text,true,,5039,989,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/accountInfo,192,1,0,0,0
+2021/06/18 10:12:44,475,TC003_Click create product ,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,6636,1505,1,1,null,0,1,0,3,0
+2021/06/18 10:12:44,475,9 /SpringMVCAnnotationShoppingCart/product,200,OK,Thread Group 1-1,text,true,,6636,1505,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/product,266,1,0,0,0
+2021/06/18 10:12:44,3517,TC004_Fill details and submit,200,"Number of samples in transaction : 7, number of failing samples : 0",Thread Group 1-1,,true,,81807,10244,1,1,null,0,1,0,39,0
+2021/06/18 10:12:44,1404,12 /SpringMVCAnnotationShoppingCart/product,200,OK,Thread Group 1-1,text,true,,30892,4569,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productList,400,1,0,0,48
+2021/06/18 10:12:46,1250,13 /SpringMVCAnnotationShoppingCart/productList,200,OK,Thread Group 1-1,text,true,,30453,3549,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productList,297,1,0,0,0
+2021/06/18 10:12:47,156,15 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,,true,,355,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDI0098,156,1,0,0,0
+2021/06/18 10:12:47,196,17 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT134,196,1,0,0,0
+2021/06/18 10:12:47,161,16 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT136,161,1,0,0,0
+2021/06/18 10:12:48,171,19 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,,true,,355,426,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=78945615,171,1,0,0,0
+2021/06/18 10:12:48,179,18 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT133,178,1,0,0,0
+2021/06/18 10:12:48,1863,TC005_Navigate to product list,200,"Number of samples in transaction : 6, number of failing samples : 0",Thread Group 1-1,,true,,50915,5703,1,1,null,0,1,0,13,0
+2021/06/18 10:12:48,1130,20 /SpringMVCAnnotationShoppingCart/productList,200,OK,Thread Group 1-1,text,true,,30453,3577,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productList,356,1,0,0,0
+2021/06/18 10:12:49,143,25 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,,true,,355,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDI0098,143,1,0,0,0
+2021/06/18 10:12:49,152,23 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT133,152,1,0,0,0
+2021/06/18 10:12:49,147,22 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT136,147,1,0,0,0
+2021/06/18 10:12:50,140,26 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,bin,true,,6584,425,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=PDCT134,139,1,0,0,0
+2021/06/18 10:12:50,151,24 /SpringMVCAnnotationShoppingCart/productImage,200,OK,Thread Group 1-1,,true,,355,426,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/productImage?code=78945615,151,1,0,0,0
+2021/06/18 10:12:50,285,TC006_Navigate to order list ,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,8562,999,1,1,null,0,1,0,4,0
+2021/06/18 10:12:50,285,27 /SpringMVCAnnotationShoppingCart/orderList,200,OK,Thread Group 1-1,text,true,,8562,999,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/orderList,253,1,0,0,0
+2021/06/18 10:12:50,181,TC007_Navigate to my cart ,200,"Number of samples in transaction : 1, number of failing samples : 0",Thread Group 1-1,,true,,4913,998,1,1,null,0,1,0,2,0
+2021/06/18 10:12:50,181,29 /SpringMVCAnnotationShoppingCart/shoppingCart,200,OK,Thread Group 1-1,text,true,,4913,998,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/shoppingCart,152,1,0,0,0
+2021/06/18 10:12:50,241,TC008_Logout,200,"Number of samples in transaction : 2, number of failing samples : 0",Thread Group 1-1,,true,,10089,2481,1,1,null,0,1,0,4,0
+2021/06/18 10:12:50,137,31 /SpringMVCAnnotationShoppingCart/logout,200,OK,Thread Group 1-1,text,true,,5299,1489,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/,20,1,0,0,0
+2021/06/18 10:12:50,104,32 /SpringMVCAnnotationShoppingCart/,200,OK,Thread Group 1-1,text,true,,4790,992,1,1,http://14.99.175.107:17670/SpringMVCAnnotationShoppingCart/,82,1,0,0,0
+2021/06/18 10:12:51,1,Debug Sampler,200,OK,Thread Group 1-1,text,true,,1260,0,1,1,null,0,1,0,0,0
